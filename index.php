@@ -8,7 +8,7 @@
 <body>
     <h1 ID="Head">WELCOME</h1>
     <form method="POST" action="login.php">
-      <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+     name: <input type="text" id="name" name="name" placeholder="Enter Name"><br>
       <input type="number"  name="age" id="age" placeholder="Enter Age"><br>
         <div class="gender-section">
             <p class="section-title">Gender:</p>
