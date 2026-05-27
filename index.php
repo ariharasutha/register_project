@@ -172,3 +172,7 @@ Delete
 </body>
 
 </html>
+<a href="edit.php?id=<?php echo $row['id']; ?>">
+Edit
+</a>
+<a href="logout.php">Logout</a>
