@@ -8,7 +8,7 @@
 <body>
     <h1 ID="Head">WELCOME</h1>
     <form method="POST" action="login.php">
-     name: <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+     <input type="text" id="name" name="name" placeholder="Enter Name"><br>
       <input type="number"  name="age" id="age" placeholder="Enter Age"><br>
         <div class="gender-section">
             <p class="section-title">Gender:</p>
@@ -70,8 +70,8 @@
                     <th><?php echo $row['id'];?></th>
                     <th><?php echo $row['name'];?></th>
                     <th><?php echo $row['age'];?></th>
-                    <th><?php echo $row['email'];?></th>
                     <th><?php echo $row['mobilno'];?></th>
+                    <th><?php echo $row['email'];?></th>
                     <th><?php echo $row['password'];?></th>
                     <th>
                         <a href="edit.php?id=<?php echo $row['id'];?>">edit</a>
