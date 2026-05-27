@@ -1,0 +1,24 @@
+#Head {
+    text-align: center;
+    color: blue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;          
+    flex-direction: column; /* Allows the #Head and form to stack vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(224, 223, 219);
+}
+
+form {
+    box-sizing: border-box; 
+    width: 100%;            
+    max-width: 500px;       
+    padding: 30px; 
+    border: 2px solid blue; 
+}
+    
